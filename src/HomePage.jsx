@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 function Homepage(){
     return (
-        <Link to = "/otherpage">This is the homepage</Link>
+        <Link to = "/MultipagePrototype/otherpage">This is the homepage</Link>
     )
 }
 export default Homepage;

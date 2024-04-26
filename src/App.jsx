@@ -5,12 +5,11 @@ import {Route, Routes} from 'react-router-dom'
 import './App.css'
 
 function App() {
-  
   return (
     <>
     <Routes>
-      <Route path = "/" element ={<Homepage/>}/>
-      <Route path = "/otherpage" element = {<OtherPage/>}/>
+      <Route path = "/MultipagePrototype/" element ={<Homepage/>}/>
+      <Route path = "/MultipagePrototype/otherpage" element = {<OtherPage/>}/>
     </Routes>
     </>
   )
